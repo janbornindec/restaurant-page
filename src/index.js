@@ -1,9 +1,7 @@
-import _, { create } from 'lodash';
+import _ from 'lodash';
 import './style.css';
 import loadHome from './home'
 import switchPage from './pages';
-
-const content = document.getElementById("content");
 
 function addFooter() {
     const body = document.querySelector("body");
